@@ -46,10 +46,9 @@
 </head>
 <body class="bg-spotlight min-h-screen relative pb-32">
 
-    <!-- Navigation: Optically Centered Typography -->
+    <!-- Navigation -->
     <nav id="nav" class="fixed top-8 left-0 right-0 z-50 transition-all duration-700 px-6">
         <div class="max-w-md mx-auto glass premium-border rounded-2xl py-4 px-6 flex justify-center items-center shadow-2xl border-white/5 min-h-[60px]">
-            <!-- Added pl-[0.5em] to ROVIO and pl-[0.3em] to Travels to offset trailing letter-spacing -->
             <div class="flex flex-col items-center leading-none text-center">
                 <span class="text-[11px] font-bold tracking-[0.5em] uppercase text-[#e7e5e4] pl-[0.5em]">Rovio</span>
                 <span class="text-[7px] font-medium tracking-[0.3em] uppercase opacity-30 text-[#e7e5e4] mt-1 pl-[0.3em]">Travels</span>
@@ -72,7 +71,6 @@
             Background-verified chauffeurs. Gate meeting protocol. Zero cancellations.
         </p>
         
-        <!-- CTA 1: Hero Primary -->
         <button onclick="sendWA('Hero_CTA')" class="btn-tap shimmer-bg flex items-center justify-between text-left w-full p-6 rounded-[2.2rem] bg-[#e7e5e4] text-black shadow-2xl mb-4">
             <div class="flex flex-col items-start leading-tight">
                 <span class="text-base font-bold uppercase tracking-tight">Request Fixed Quote</span>
@@ -94,24 +92,23 @@
         <div class="space-y-10">
             <!-- Hycross Card -->
             <div class="group rounded-[3rem] premium-border overflow-hidden bg-white/[0.01] ring-1 ring-white/10 shadow-2xl transition-all duration-500">
-                <div class="relative h-[230px] overflow-hidden">
+                <div class="relative h-[230px] overflow-hidden bg-stone-900">
                     <div class="absolute top-6 left-7 z-20 flex flex-wrap gap-2">
                         <span class="px-3 py-1.5 rounded-full bg-[#e7e5e4] text-black text-[8px] font-bold uppercase tracking-widest">Recommended Choice</span>
                         <span class="px-3 py-1.5 rounded-full bg-black/60 text-white text-[8px] font-bold uppercase tracking-widest backdrop-blur-md">Silent Hybrid</span>
                     </div>
-                    <img src="innovahycross_600x400.jpeg" class="w-full h-full object-cover opacity-60 grayscale-[0.2]">
-                    <div class="absolute bottom-8 left-8">
-                        <h3 class="text-3xl font-light tracking-tight">Innova Hycross</h3>
-                    </div>
+                    <img src="innovahycross_600x400.jpeg" class="w-full h-full object-cover opacity-100 grayscale-0">
+                    <div class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/20 to-transparent"></div>
                 </div>
+                
                 <div class="p-10 pt-8">
+                    <h3 class="text-3xl font-light tracking-tight mb-8 text-white">Innova Hycross</h3>
                     <div class="grid grid-cols-2 gap-6 mb-8 opacity-40">
-                        <div class="flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest">6+1 SEATS</span></div>
-                        <div class="flex items-center gap-2"><i data-lucide="briefcase" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest">4 LARGE</span></div>
+                        <div class="flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest uppercase">6+1 Seats</span></div>
+                        <div class="flex items-center gap-2"><i data-lucide="briefcase" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest uppercase">4 Large</span></div>
                     </div>
-                    <p class="text-[14px] opacity-40 font-light mb-10 leading-relaxed italic leading-6">Executive ottoman seating. Perfect for post-flight rest in ultra-silent travel.</p>
+                    <p class="text-[14px] opacity-40 font-light mb-10 leading-relaxed italic leading-6 text-stone-300">Executive ottoman seating. Perfect for post-flight rest in ultra-silent travel.</p>
                     
-                    <!-- CTA: Hycross Primary -->
                     <button onclick="sendWA('Select_Hycross')" class="btn-tap shimmer-bg flex items-center justify-between text-left w-full p-5 pl-8 rounded-[1.8rem] bg-[#e7e5e4] text-black shadow-xl">
                         <div class="flex flex-col items-start leading-tight">
                             <span class="text-sm font-bold uppercase tracking-tight">Book Hycross</span>
@@ -125,24 +122,23 @@
             </div>
 
             <!-- Crysta Card -->
-            <div class="group rounded-[3rem] premium-border overflow-hidden bg-white/[0.01]">
-                <div class="relative h-[230px] overflow-hidden">
+            <div class="group rounded-[3rem] premium-border overflow-hidden bg-white/[0.01] ring-1 ring-white/10 shadow-2xl transition-all duration-500">
+                <div class="relative h-[230px] overflow-hidden bg-stone-900">
                     <div class="absolute top-6 left-7 z-20">
                         <span class="px-3 py-1.5 rounded-full bg-black/60 text-white text-[8px] font-bold uppercase tracking-widest backdrop-blur-md">Heavy Luggage</span>
                     </div>
-                    <img src="toyota_innova.jpeg" class="w-full h-full object-cover opacity-40 grayscale-[0.5]">
-                    <div class="absolute bottom-8 left-8">
-                        <h3 class="text-3xl font-light tracking-tight">Innova Crysta</h3>
-                    </div>
+                    <img src="toyota_innova.jpeg" class="w-full h-full object-cover opacity-100 grayscale-0">
+                    <div class="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/20 to-transparent"></div>
                 </div>
+                
                 <div class="p-10 pt-8">
+                    <h3 class="text-3xl font-light tracking-tight mb-8 text-white">Innova Crysta</h3>
                     <div class="grid grid-cols-2 gap-6 mb-8 opacity-40">
-                        <div class="flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest">6+1 SEATS</span></div>
-                        <div class="flex items-center gap-2"><i data-lucide="briefcase" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest">5 LARGE</span></div>
+                        <div class="flex items-center gap-2"><i data-lucide="users" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest uppercase">6+1 Seats</span></div>
+                        <div class="flex items-center gap-2"><i data-lucide="briefcase" class="w-4 h-4"></i><span class="text-[10px] font-bold tracking-widest uppercase">5 Large</span></div>
                     </div>
                     <p class="text-[14px] opacity-40 font-light mb-10 leading-relaxed italic leading-6 text-stone-300">The gold standard for reliability. Best for groups with high luggage requirements.</p>
                     
-                    <!-- CTA: Crysta Primary -->
                     <button onclick="sendWA('Select_Crysta')" class="btn-tap shimmer-bg flex items-center justify-between text-left w-full p-5 pl-8 rounded-[1.8rem] bg-[#e7e5e4] text-black shadow-xl">
                         <div class="flex flex-col items-start leading-tight">
                             <span class="text-sm font-bold uppercase tracking-tight">Book Crysta</span>
@@ -191,7 +187,7 @@
         </div>
     </section>
 
-    <!-- Footer: Branding simplified -->
+    <!-- Footer -->
     <footer class="max-w-md mx-auto px-10 text-center opacity-10 pb-20">
         <div class="w-px h-16 bg-white mx-auto mb-10"></div>
         <p class="text-[8px] font-bold uppercase tracking-widest italic leading-loose italic">Premium Airport Logistics Specialists</p>
@@ -214,15 +210,18 @@
         lucide.createIcons();
 
         function sendWA(ref) {
-            const phoneNumber = "919999999999"; 
-            const message = encodeURIComponent(`Hi Rovio, I'm checking availability for a premium Delhi Airport transfer. [Ref: ${ref}]`);
+            const phoneNumber = "917310586101"; 
+            // Generic recommended message that feels professional
+            const message = encodeURIComponent("Hi Rovio, I'm checking availability for a premium Delhi Airport transfer.");
             
+            // Internal tracking captures the specific button 'ref'
             if (window.dataLayer) {
                 window.dataLayer.push({
                     'event': 'whatsapp_click',
                     'ref_location': ref
                 });
             }
+            // Opens chat with the pre-filled message but NO tracking/ref tags in the text
             window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
         }
 
